@@ -1,3 +1,8 @@
+NOTICE: This repo contains files from the CMake source
+distribution. The license below applies only to my original additions,
+not to files from CMake or modified versions thereof. See separate
+CMake license.
+
 MIT License
 
 Copyright (c) 2022 Åsmund Steen Skjæveland
