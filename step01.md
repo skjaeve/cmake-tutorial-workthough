@@ -42,12 +42,16 @@ It ... (drum roll) builds! And it runs. It takes a positive float or integer num
 
 ## Adding a Version Number and Configured Header File
 
-Not done yet, there's more to be done in the CMakeLists.txt file.
-`project()`: Add VERSION
+Not done yet, there's more to be done in the `CMakeLists.txt` file.
+
+`project()` statement: Add a version.
 
 `project(Tutorial)` becomes `project(Tutorial VERSION 1.0)`.
 
-Then add a `configure_file(...)` line. Presumably at the bottom.
+> Then, configure a header file to pass the version number to the source code
+
+Add a `configure_file(...)` line. Presumably at the bottom.
+
 ```configure_file(TutorialConfig.h.in TutorialConfig.h)```
 
 Okay, so I guess ... this means there's a file `TutorialConfig.h.in` file that will generate `TutorialConfig.h`? Maybe? Except there isn't such a file, but maybe I'll be told to write it in a few paragraphs.
