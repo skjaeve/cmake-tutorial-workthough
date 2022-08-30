@@ -4,7 +4,7 @@ So I've been told that if I write C++, I should use a proper build system, whate
 
 Here is my starting point: I know a little C++. I can write simple and slightly complicated Makefiles. I struggle to make Make do what I want.
 
-So, time to learn some CMake. Let's try the tutorial.
+So, time to learn some CMake. Let's try the tutorial. As I write this, the latest CMake and tutorial are at version 3.24.1.
 
 Okay, I'll get started. I download [the CMake tutorial](https://cmake.org/cmake/help/latest/guide/tutorial/index.html) and unzip somewhere suitable.
 

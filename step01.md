@@ -105,7 +105,7 @@ Question time.
 Why is `CMAKE_CXX_STANDARD_REQUIRED` a thing? What'd be the point of choosing a standard version if you're not going to use it?
 
 ## Rebuild
-Builds. Runs. Computes. Step 1 done.
+Builds. Runs. Computes. Step 1 done. No need to call `make`. Huh.
 # Summary
 
 ## What I did
@@ -128,9 +128,11 @@ Using CMake templates can make VS Code sad because it can't find the files it ne
 
 Order of statements in `CMakeLists.txt` matter.
 
+
 ## What I'm missing
 I didn't choose a build tool. I don't know what PUBLIC means. Why do I need to insist on a standard? Why do I have to tell CMake I want to use the header I asked it to generate from a template?
 
+CMake isn't a build tool, but it acts like it is while claiming to not be. I don't need to call `make` to build, I used `cmake` for that part too. Likely explanation is that CMake calls `make` for me. So CMake is not a build tool, it's just the tool I use to build. One may hope that this makes more sense at the other end of the tutorial.
 ## Other
 
 Things are kind of in the wrong order around `TutorialConfig.h.in`. It is:
